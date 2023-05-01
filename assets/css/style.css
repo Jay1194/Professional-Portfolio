@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Styling */
+header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 37px;
+   
+}
+header h1 {
+    display: flex;
+    flex-wrap:wrap;
+    padding: 0px 50px;
+    font-size: 37px;
+    color: white;
+    border: 1px solid white;
+}
+header nav ul {
+    display: flex;
+    font-size: 26px;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+}
+header nav ul li a:hover {
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
