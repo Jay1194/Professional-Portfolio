@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -43,7 +42,10 @@ header nav ul li a:hover {
     border-radius: 10px;
 }
 
+/* Different screen sizes */
 @media screen and (max-width: 575px) {
+
+    /* Header adjustments */
     header h1 {
        margin: 25px;
        padding: 9px 20px;
@@ -58,6 +60,27 @@ header nav ul li a:hover {
         font-weight: bold;
         border-radius: 5px;
         margin: 0px 3px;
+       
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Header adjustments */
+    header h1 {
+        margin: 20px auto;
+        padding: 15px 20px;
+        width: 35%;
+        font-size: 36px;
+    }
+    header nav ul li a{
+        font-size: 20px;
+        padding: 0 30px;
+        background-color: white;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        border-radius: 5px;
+        margin: 0px 14px;
        
     }
 }
