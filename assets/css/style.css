@@ -26,9 +26,11 @@ header h1 {
 }
 header nav ul {
     display: flex;
-    font-size: 26px;
+    padding-top: 10px;
+    font-size: 1.55vw;
     flex-wrap: wrap;
     list-style: none;
+
     
 }
 header nav ul li a {
@@ -43,25 +45,18 @@ header nav ul li a:hover {
 }
 
 /* Different screen sizes */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 980px) {
 
-    /* Header adjustments */
+    /* Header */ 
     header h1 {
-       margin: 25px;
-       padding: 9px 20px;
-       width: 100%;
-       font-size: 30px;
+        font-size: 25px ;
+        padding: 10px 20px;
+        margin-right: 1px;
     }
-    header nav ul li a{
-        font-size: 14px;
-        padding: 0 5px;
-        background-color: white;
-        color: rgb(0, 0, 0);
-        font-weight: bold;
-        border-radius: 5px;
-        margin: 0px 3px;
-       
+    header nav ul {
+        margin: 10px ;
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -74,13 +69,32 @@ header nav ul li a:hover {
         font-size: 36px;
     }
     header nav ul li a{
-        font-size: 20px;
+        font-size: 19px;
         padding: 0 30px;
         background-color: white;
         color: rgb(0, 0, 0);
         font-weight: bold;
         border-radius: 5px;
         margin: 0px 14px;
-       
+    }
+}
+@media screen and (max-width: 575px) {
+
+    /* Header adjustments */
+    header h1 {
+       margin: 25px;
+       padding: 9px 20px;
+       width: 100%;
+       font-size: 30px;
+       border: 1px black solid;
+    }
+    header nav ul li a{
+        font-size: 12px;
+        padding: 0 5px;
+        background-color: white;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        border-radius: 5px;
+        margin: 0px 3px;
     }
 }
