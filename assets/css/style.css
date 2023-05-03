@@ -14,6 +14,11 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px 37px;
+    background-image: url("../images/dice.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 90%;
    
 }
 header h1 {
@@ -37,12 +42,43 @@ header nav ul li a {
     text-decoration: none;
     color: white;
     padding: 15px 40px;
+    
 }
 header nav ul li a:hover {
     background: white;
     color: black;
     border-radius: 10px;
 }
+.hero {
+    background-image: url("../images/dice.jpg");
+   height: 500px;
+   background-size: cover;
+ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 90%;
+}
+.hero-title {
+
+    border: 1px solid white;
+    background-color: white;
+    padding: 6px;
+    border-radius: 20px;
+    font-size: 23px;
+    text-align: left;
+    margin: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.99);
+    font-style: italic;
+    
+    
+    
+
+}
+
+
 
 /* Different screen sizes */
 @media screen and (max-width: 980px) {
