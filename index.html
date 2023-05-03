@@ -17,9 +17,9 @@
         <!-- navigation -->
         <nav> 
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
                 <li><a href="#">Resume</a></li>
             </ul>
         </nav>
@@ -33,7 +33,7 @@
     </section>
 
      <!-- "About Me" section -->
-     <section class="about-me">
+     <section id="about" class="about-me">
         <h2 class="bw-h2">About Me</h2>
         <p>
            My names Jayden Taylor im a software developer from Regina, Saskachewan Canada currently looking to get my foot in the door in the tech industry! 
@@ -45,50 +45,52 @@
      </section>
 
      <!-- "Work" section -->
-     <section>
         <div>
-        <h2 class="bw-h2">Work</h2>
+        <h2 id="work" class="bw-h2">Work</h2>
         </div>
+        
 
         <!-- "featured project" section-->
-        <article>
+        <article class="top-project">
             <img src="" alt="" />
             <div>
-                <h3>Featured </h3>
-                <p>Project</p>
+                <h3>Resume</h3>
+                <p>React</p>
             </div>
         </article>
+       
 
         <!-- Other projects -->
-        <article>
+         <section class="projects">
+           <article>
             <img src="" alt="" />
             <div>
-                <h3>Other</h3>
-                <p>Project</p>
+                <h3>Weather Dashboard</h3>
+                <p>Server Side APIs / Java Script / HTML / Bootstrap  </p>
+            </div>
+        </article>  
+
+       <article>
+            <img src="" alt="" />
+            <div>
+                <h3>Work Day Scheduler</h3>
+                <p>Third-Party APIs / Java Script  </p>
             </div>
         </article>
 
         <article>
             <img src="" alt="" />
             <div>
-                <h3>Other</h3>
-                <p>Project</p>
+                <h3>Professional README Generator</h3>
+                <p>Node.js<p>
             </div>
         </article>
 
         <article>
             <img src="" alt="" />
             <div>
-                <h3>Other</h3>
-                <p>Project<p>
-            </div>
-        </article>
-
-        <article>
-            <img src="" alt="" />
-            <div>
-                <h3>Other</h3>
-                <p>Project</p>
+                <h3>Code Quiz</h3>
+                <p>Web APIs / Java Script</p>
             </div>
         </article>
     </section>
@@ -96,16 +98,28 @@
     <!-- "Contact Me" section -->
     <section>
         <div>
-            <h2 class="bw-h2">Contact Me</h2>
+            <h2 id="contact-me" class="bw-h2">Contact Me</h2>
         </div>
 
         <!-- Contact Info-->
-        <address>
-            <a href="tel:+1 639-997-7396">Phone (+1 639-997-7396)</a> <br>
-            <a href="mailto://t.thomast@gmail.com">Email - t.thomast@gmail.com</a> <br>
-            <a href="https://github.com/Jay1194">Github</a> <br>
-            <a href="https://www.linkedin.com/in/jayden-taylor-02233a23b/">Linkdn</a>
+        <address class="contact">
+            <div class="phone">
+            <img src="assets/images/phone-icon.svg" alt=""/> 
+            <h4>+1 639-997-7396</h4> 
+            </div>
+
+            <div class="email">
+            <a href="mailto://t.thomast@gmail.com"><img src="assets/images/gmail-icon.svg" alt="">
+            </div> 
+
+            <div class="github">
+            <a href="https://github.com/Jay1194"><img src="assets/images/github-icon.svg" alt="">
+            </div> 
+
+            <div class="linkedin">
+            <a href="https://www.linkedin.com/in/jayden-taylor-02233a23b/"><img src="assets/images/linkedln.svg">
+            </div>
         </address>
     </section>
-    </body>
+</body>
 </html>

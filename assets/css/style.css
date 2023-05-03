@@ -94,10 +94,39 @@ header nav ul li a:hover {
     justify-content: left;
 }
 
+/* "Work" section */
+.projects {
+    display: flex;
+    justify-content: space-around;
+    margin: 200px auto;
+    width: 75%;
+}
 
+.top-project {
+    display: flex;
+    justify-content: center;
+    margin: 200px 0px;
+}
 
+/* "Contact Me" section */
+.contact {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 100px 0px;
+    width: 100%;
+}
 
+.phone img {
+   display:flex ;
+}
+.phone h4 {
+    font-size: 30px;
+}
 
+.email-icon {
+   display: flex;
+}
 
 /* Different screen sizes */
 @media screen and (max-width: 980px) {
