@@ -96,36 +96,79 @@ header nav ul li a:hover {
 
 /* "Work" section */
 .projects {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
-    margin: 200px auto;
-    width: 75%;
+    box-sizing: border-box;
+    justify-content: center;
+  
 }
-
 .top-project {
     display: flex;
     justify-content: center;
-    margin: 200px 0px;
+    margin: 5px auto ;
+    border: 2px solid black;
+    padding: 8% 0;
+    width: 50%;
+    box-sizing: border-box;
 }
+.project1, .project2 {
+    display:flex;
+    flex-direction: column;
+}
+
+.project1 {
+    display: flex;
+    border: 1px solid black;
+    padding: 4%;
+    width: 15%;
+    }
+    
+    .project2 {
+    display: flex;
+    border: 1px solid black;
+    padding: 4%;
+    width: 15%
+    }
+    
+    .project3 {
+    display: flex;
+    border: 1px solid black;
+    padding: 4%;
+    width: 15%
+    }
+    
+    .project4 {
+    display: flex;
+    border: 1px solid black;
+    padding: 4%;
+    width: 15%
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* "Contact Me" section */
 .contact {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 100px 0px;
-    width: 100%;
-}
-
-.phone img {
-   display:flex ;
+    width: 60%;
+    margin: 100px auto ;
+    
+    
 }
 .phone h4 {
-    font-size: 30px;
-}
-
-.email-icon {
-   display: flex;
+    font-size: 25px;
+    border: solid 2px greenyellow;
+    padding: 5px;
 }
 
 /* Different screen sizes */
