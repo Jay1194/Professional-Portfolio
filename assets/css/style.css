@@ -135,7 +135,7 @@ header nav ul li a:hover {
     display: table;
   }
 
-  
+
 
   .resize div {
     border: 1px solid black;
@@ -144,7 +144,7 @@ header nav ul li a:hover {
     bottom: 0;
     color: black;
     background: white;
-    font-size: .8vw;
+    font-size: 1vw;
   }
    
 
@@ -191,27 +191,32 @@ header nav ul li a:hover {
     .about-me p {
         font-size: 15px;
     }
-    .top-project {
-        position: relative;
-        padding: 12%;
-        width: 80%;
-        
-    }
-    .top-project div {
-        position: absolute;
-        left: 0px;
-        top: 50%;
-        font-size: 15px;
-        width: 15% ;
-    }
     
-    .projects{
-        width: 100%;
-        position: relative;
-    }
-  
-    
+    .img-container {
+        float: right;
+        width: 50%;
+      }
 
+      .img-container div {
+        font-size: 1.7vw;
+        width: 63%;
+     }
+
+     .resize {
+        width: 55%;
+    }
+    .resize div {
+    width: 40%;
+    font-size: 2vw;
+    }
+    .contact {
+        width: 80%;
+        justify-content: space-between;
+    }
+    .phone h4 {
+        font-size: 1.7vw;
+        align-items: center;
+    }
 }
 
 
