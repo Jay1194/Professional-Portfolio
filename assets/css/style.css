@@ -154,9 +154,11 @@ header nav ul li a:hover {
     justify-content: space-around;
     width: 60%;
     margin: 100px auto ;
+    flex-wrap: wrap;
     
     
 }
+
 .phone h4 {
     font-size: 25px;
     border: solid 2px greenyellow;
@@ -260,5 +262,29 @@ header nav ul li a:hover {
         font-weight: bold;
         border-radius: 5px;
         margin: 0px 3px;
+    }
+    .bw-h2 {
+        width: 33%;
+        font-size: 6vw;
+    }
+    .img-container div {
+        font-size: 2.8vw;
+     }
+
+     .resize div {
+        font-size: 4vw;
+     }
+    
+    .contact {
+        font-size: 0.10em;
+        height: 10px;
+        margin: 0 auto;
+        justify-content: center;
+        width: 80%;
+    }
+    .phone h4 {
+        font-size: 3vw;
+        border: solid 2px greenyellow;
+        padding: 5px;
     }
 }
