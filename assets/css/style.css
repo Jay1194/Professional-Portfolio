@@ -50,7 +50,7 @@ header nav ul li a {
 }
 header nav ul li a:hover {
     background: white;
-    color: black;
+    color: lid;
     border-radius: 10px;  
 } 
 
@@ -91,13 +91,13 @@ header nav ul li a:hover {
     color: rgb(255, 255, 255);
     font-weight: bold;
     width: 20%;
-    margin: 100px 0;
+    margin: 5% 0;
     border-radius: 0px 10px 10px 0px;
 }
 .about-me p {
     display: flex;
     margin: 0px 40px;
-    font-size: 1vw;
+    font-size: 90%;
     justify-content: left;
     width: 80%;
     flex-wrap: wrap;
@@ -113,14 +113,15 @@ header nav ul li a:hover {
   }
 
   .img-container div {
-    border: 1px solid black;
+    border: 1px solid lid;
     width: 60%;
     position: absolute;
     bottom: 0;
-    color: black;
-    background: white;
+    color: lid;
+    background: black;
     position: absolute;
     font-size: .7vw;
+    color: white;
  }
 
 .resize {
@@ -138,31 +139,29 @@ header nav ul li a:hover {
 
 
   .resize div {
-    border: 1px solid black;
+    border: 1px solid lid;
     width: 30%;
     position: absolute;
     bottom: 0;
-    color: black;
+    color: lid;
     background: white;
     font-size: 1vw;
   }
-   
+       section article img  {
+        border: 1px black solid;
+    }
 
 /* "Contact Me" section */
 .contact {
     display: flex;
     justify-content: space-around;
-    width: 60%;
-    margin: 100px auto ;
+    width: 100%;
+    margin: 5% 5%;
     flex-wrap: wrap;
-    
-    
 }
+@media screen and (max-width: 1200px) {
+    
 
-.phone h4 {
-    font-size: 25px;
-    border: solid 2px greenyellow;
-    padding: 5px;
 }
 
 /* Different screen sizes */
@@ -172,7 +171,7 @@ header nav ul li a:hover {
         justify-content: center;
         border-bottom: 3px solid;
         text-align: center;
-        margin: 0 auto 35px auto;
+        margin: 0 auto 5% auto;
         width: 50%;
 
     }
@@ -182,13 +181,13 @@ header nav ul li a:hover {
     header nav ul {
         margin-top: 20px;
         justify-content: center;
-        align-items: center;
     }
     header nav ul li a {
         font-size: 20px;
     }
     .bw-h2 {
         font-size:30px;
+        margin: 5% 0;
     }
     .about-me p {
         font-size: 15px;
@@ -210,15 +209,10 @@ header nav ul li a:hover {
     .resize div {
     width: 40%;
     font-size: 2vw;
-    }
-    .contact {
-        width: 80%;
-        justify-content: space-between;
-    }
-    .phone h4 {
-        font-size: 1.7vw;
-        align-items: center;
-    }
+}
+.hero {
+    border-top: 4px white solid;
+}
 }
 
 
@@ -242,49 +236,69 @@ header nav ul li a:hover {
     }
     .bw-h2 {
         width: 25%;
+        margin: 5% 0;
+    }
+    .contact {
+        margin: 5% 5%;
+    }
+    .contact img {
+        height: auto;
+        width: 10vw;
+    }
+    .hero {
+        border-top: 2px white solid;
     }
 }
 @media screen and (max-width: 575px) {
 
     /* Header adjustments */
     header h1 {
-       margin: 25px;
+       margin: 3vw;
        padding: 9px 20px;
        width: 100%;
-       font-size: 30px;
-       border: 1px black solid;
+       font-size: 12vw;
+       border: white 1px solid;
+      
     }
-    header nav ul li a{
-        font-size: 12px;
+    header nav ul li {
+        font-size: 1vw;
         padding: 0 5px;
-        background-color: white;
         color: rgb(0, 0, 0);
         font-weight: bold;
         border-radius: 5px;
         margin: 0px 3px;
+        display: flex;
+        flex-direction: column; 
+        margin-bottom: 5%;
+        width: 50%;
+        text-align: center;
     }
     .bw-h2 {
         width: 33%;
         font-size: 6vw;
+        margin: 8% 0;
     }
-    .img-container div {
-        font-size: 2.8vw;
-     }
+    
 
      .resize div {
         font-size: 4vw;
      }
     
-    .contact {
-        font-size: 0.10em;
-        height: 10px;
+    .contact img {
+        height: auto;
         margin: 0 auto;
         justify-content: center;
-        width: 80%;
+        width: 12vw;
     }
-    .phone h4 {
-        font-size: 3vw;
-        border: solid 2px greenyellow;
-        padding: 5px;
+    .hero {
+        border-top: 2px white solid;
     }
+    .hero-title {
+        font-size: 4vw;
+    }
+
+
+    
 }
+
+
