@@ -50,7 +50,7 @@ header nav ul li a {
 }
 header nav ul li a:hover {
     background: white;
-    color: lid;
+    color: black;
     border-radius: 10px;  
 } 
 
@@ -83,6 +83,8 @@ header nav ul li a:hover {
     bottom: 0px;
 }
 
+
+
 /* "About Me" section */
 .bw-h2 {
     font-size: 2vw;
@@ -93,6 +95,8 @@ header nav ul li a:hover {
     width: 25%;
     margin: 3% 0;
     border-radius: 0px 10px 10px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+
 }
 .about-me p {
     display: flex;
@@ -101,6 +105,7 @@ header nav ul li a:hover {
     justify-content: left;
     width: 80%;
     flex-wrap: wrap;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 /* "Work" section */
@@ -113,7 +118,6 @@ header nav ul li a:hover {
   }
 
   .img-container div {
-    border: 1px solid lid;
     width: 60%;
     position: absolute;
     bottom: 0;
@@ -131,17 +135,15 @@ header nav ul li a:hover {
     display: table;
   }
 
-
-
   .section-title {
     font-size: 48px;
     color: black;
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
-    margin: 0 auto 35px auto;
+    margin: 0  auto 35px auto;
     width: 50%;
-
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 .flex-column {
@@ -150,14 +152,20 @@ header nav ul li a:hover {
 
   .project {
     margin: 1%;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(230, 230, 230);
     color: black;
+    border: 3px black solid;
     flex: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
   }
   
   .project img {
      width: 100%;
+     border-bottom: 3px black solid;
+     height: auto;
   }
+
+ 
   
   .project-bio {
       padding: 25px;
@@ -171,7 +179,16 @@ header nav ul li a:hover {
       flex-wrap: wrap;
       justify-content: space-around;
   }
+
+   .project:hover  {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  .project a:hover {
+    color: white;
+  }
   
+
   .text-left {
       text-align: left;
   }
@@ -190,9 +207,6 @@ header nav ul li a:hover {
       margin-bottom: 15px;
   }
   
-  .project-bio p {
-      font-size: 17px;
-  }
 
   .flex-row {
     display: flex;
@@ -211,9 +225,7 @@ header nav ul li a:hover {
     font-size: 1vw;
 }
 
-  section article img  {
-    border: 1px black solid;
-}
+ 
 .project img {
     width:100%;
 }
@@ -227,8 +239,15 @@ header nav ul li a:hover {
     margin: 5% 0;
     flex-wrap: wrap;
 }
+.contact div {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
 
-
+.projects a {
+    text-decoration: none;
+    color: black;
+}
 
 /* Different screen sizes */
 @media screen and (max-width: 980px) {
@@ -371,6 +390,7 @@ header nav ul li a:hover {
     }
     .project {
         flex: 0 100%;
+    
     }
     .section-title{
         font-size: 10vw;
